@@ -10,6 +10,6 @@ a:not([aria-disabled="true"]) {
 /* --- STYLE --- */
 main {
 	min-height: 100vh;
-  background-color: whitesmoke;
+	background-color: #ffb400;
 	font-family: 'Roboto', sans-serif;
 }
