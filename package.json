@@ -1,6 +1,6 @@
 {
   "name": "IHC",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "git@github.com:TheMarini/ihc.git",
   "author": "Bruno Marini <bruno.marini1@gmail.com>",
   "dependencies": {
