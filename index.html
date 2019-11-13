@@ -5,22 +5,74 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- FONTS -->
+	<link rel="stylesheet" href="assets/fonts/Blogger/font-face.css">
+	<link rel="stylesheet" href="assets/fonts/Guerrilla/font-face.css">
+	<link rel="stylesheet" href="assets/fonts/OrangeJuice/font-face.css">
+	<link rel="stylesheet" href="assets/fonts/Static/font-face.css">
+	<link rel="stylesheet" href="assets/fonts/Sugarpunch/font-face.css">
+
+	<!-- STYLE -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
 	<title>IHC</title>
 </head>
 <body>
+	<header class="vh-100 w-100 pb-5 d-flex flex-column justify-content-center align-items-center">
+		<div class="sun"></div>
+		<h1 class="logo">Muda</h1>
+		<h2 class="subtitle">Mude sua perspectiva sobre a natureza na Terra.</h2>
+	</header>
+
 	<main>
-		<section>
+		<section class="quiz quiz-1">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-8">
+						<h3 class="quiz-title text-center p-1">Você mora na cidade ou no campo?</h3>
+						<p class="quiz-text text-justify">Apesar de serem comumente tratados como sinônimos, os conceitos de rural e campo, urbano e cidade, possuem diferenças em suas conceituações. Enquanto cidade e campo são formas concretas, materialização de um modo de vida, urbano e rural são representações sociais.</p>
+					</div>
+				</div>
+				<form class="row justify-content-center mt-3">
+					<div class="col-8">
+						<div class="row justify-content-between">
+							<div class="col-6">
+								<button value="cidade" class="btn btn-light text-center d-flex flex-column justify-content-center align-items-center">
+									<p class="mb-0 mt-2">Cidade</p>
+								</button>
+							</div>
+							<!-- <div class="col-4">
+								<button class="btn btn-light text-center d-flex flex-column justify-content-center align-items-center">
+									<p class="mb-0 mt-2">Secretária</p>
+								</button>
+							</div> -->
+							<div class="col-6">
+								<button value="campo" class="btn btn-light text-center d-flex flex-column justify-content-center align-items-center">
+									<p class="mb-0 mt-2">Campo</p>
+								</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="quiz-2">
 
 		</section>
 	</main>
+
+	<footer>
+
+	</footer>
 
 
 	<!-- SCRIPTS -->
 	<script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
-	<!-- <script src="assets/js/script.js" charset="utf-8"></script> -->
+	<script src="assets/js/script.js" charset="utf-8"></script>
 </body>
 </html>

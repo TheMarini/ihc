@@ -7,9 +7,124 @@ a:not([aria-disabled="true"]) {
 /* TODO: change to local files */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
+/* --- GLOBALS --- */
+/* ~ Rounded ~ */
+.rounded-100 {
+  border-radius: 100px !important
+}
+.rounded {
+  border-radius: 10px !important
+}
+.rounded-tl {
+  border-top-left-radius: 10px !important
+}
+.rounded-tr {
+  border-top-right-radius: 10px !important
+}
+.rounded-bl {
+  border-bottom-left-radius: 10px !important
+}
+.rounded-br {
+  border-bottom-right-radius: 10px !important
+}
+
+/* ~ Card ~ */
+._card {
+	background-color: #fff;
+  border-radius: 100px !important
+}
+
 /* --- STYLE --- */
-main {
+body {
 	min-height: 100vh;
+	background-color: #474744;
+	/* font-family: 'Blogger Sans', sans-serif; */
+	font-family: 'Guerrilla', sans-serif;
+	/* font-family: 'Orange Juice', sans-serif; */
+	/* font-family: 'Static', sans-serif; */
+	/* font-family: 'Sugarpunch', sans-serif; */
+}
+
+/* Header */
+header {
+	background-color: #2994b2;
+	position: relative;
+}
+
+.sun {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 250px;
+	width: 250px;
 	background-color: #ffb400;
-	font-family: 'Roboto', sans-serif;
+	border-bottom-right-radius: 100%;
+}
+
+.logo {
+	color: #fffbe0;
+	font-size: 8rem;
+	font-weight: 600
+}
+
+.subtitle {
+	color: #fffbe0;
+	font-size: 2.5rem
+}
+
+/* Section */
+section {
+	height: 100vh;
+}
+
+.quiz-title {
+	font-size: 2.3em;
+	background-color: #fffbe0;
+}
+
+.quiz-text {
+	font-size: 1.3rem;
+	color: #fffbe0;
+}
+
+.quiz button {
+	height: 150px;
+	width: 100%;
+	font-size: 2rem !important;
+	border: 0;
+	transition: .3s;
+
+	background-color: #fffbe0;
+	color: #2994b2 !important;
+
+	border-radius: 0px !important;
+
+}
+.quiz button.selected {
+	opacity: 1;
+	transform: translateY(-15px);
+
+	background-color: #474744;
+	color: #fffbe0 !important;
+}
+.quiz button.not-selected {
+	opacity: 0.3;
+	transform: translateY(15px);
+}
+
+.quiz-1 {
+	background-image: linear-gradient(#2994b2, #8CC1D0);
+}
+
+.quiz-2 {
+	background-image: linear-gradient(#8CC1D0, #EEEEEE);
+}
+
+/* Footer */
+footer {
+	height: 100vh;
+	background-image: url('../img/plant-background.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
