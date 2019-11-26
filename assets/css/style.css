@@ -74,7 +74,7 @@ header {
 
 /* Section */
 section {
-	height: 100vh;
+	height: 80vh;
 }
 
 .quiz-title {
@@ -117,6 +117,10 @@ section {
 }
 
 .quiz-2 {
+	background-image: linear-gradient(#8CC1D0, #8CC1D0);
+}
+
+.quiz-3 {
 	background-image: linear-gradient(#8CC1D0, #EEEEEE);
 }
 
